@@ -10,6 +10,6 @@ class TestClass:
     # Test para la operación div
     def test_div(self):
         assert div(4,2) == 2
-        assert div(6,-3) == 2
+        assert div(6,-3) == -2
         assert div(12,6) == 2
         assert div(24,12) == 2
